@@ -7,7 +7,7 @@
 
 ## Description
 
-This is a Node CLI application designed to prompt the user for information about their team manager and then information about their team, before automatically generating a web page displaying the entire team's information.
+This application is designed to be used for note taking. The app allows the users to create and save notes, view previously created notes, and delete saved notes.
       
 ## Table of Contents
 1. [Install Instructions](#install-instructions)
@@ -21,32 +21,17 @@ This is a Node CLI application designed to prompt the user for information about
 
 [Node.js](https://nodejs.org/en/) is required to run this application, ensure Node.js is installed.  
 
-Ensure the following files and folders are present in the root directory to get started:   
+Also make sure to install dependencies by running npm install:   
 
 * ```package.json``` (contains dependencies)
 
-Step 2: Open the integrated terminal and run the following command to install [Inquirer](https://www.npmjs.com/package/inquirer):
-
-    npm install  
-
-Once installed, confirm the folder ```/node_modules/inquirer``` is present before proceeding to Usage Instructions.
-
 ## Usage Instructions
 
-Open the integrated terminal or bash command prompt and run the following command from the directory:
+LOCAL:
+To run the application on your local host, open the terminal and run 'node server.js', then navigate to localhost:8081 in your web browser to access the application:
 
-    node app.js
-
-Answer the questions to build up your team. After adding a Manager, select either Engineer or Intern to add a new member with that role. When you're finished, select 'Render'.
-
-Your generated team.html file can then be found in the /output folder.
-
-## Demo
-
-<img src="./assets/images/Team_Generator_.gif" width="500" alt="application demo">
-
-High-resolution video: https://youtu.be/M-xEmXxfwiU
-
+LIVE:
+Navigate to (Heroku URL) to try this app live
 
 ## License
   
@@ -58,14 +43,6 @@ This application is licensed under MIT License.
 ## Contribution Guidelines
 
 Contributors are welcome. This is open source software. Consider the people who will read your code, make sure it is formatted properly so this is easy to read for all potential users. 
-
-## Test Instructions
-
-Jest is required to execute tests. Current tests can be found in the /test folder. To run tests, open the terminal and run the following command:
-
-    npm run test
-
-Test results will be displayed in the terminal.
 
 ## Questions
 
