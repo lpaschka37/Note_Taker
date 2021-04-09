@@ -1,1 +1,17 @@
-[]
+[
+ {
+  "title": "First Note",
+  "text": "something goes here",
+  "id": "bb08d02c-40b9-47bd-a5f1-700d6b2efd33"
+ },
+ {
+  "title": "Second Note",
+  "text": "more text goes here.\n",
+  "id": "bfa268e7-817e-4900-b5fb-d30fe3e9c30a"
+ },
+ {
+  "title": "Note Number 3",
+  "text": "more stuff goes here for note taker",
+  "id": "651145f8-8068-4ac6-ae8a-60e12d5f2060"
+ }
+]

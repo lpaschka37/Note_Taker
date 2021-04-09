@@ -37,7 +37,7 @@ module.exports = function (app) {
             // write the updated note data to the json file, and clean up the json format
             fs.writeFile(`./db/db.json`, JSON.stringify(json, null, 1), (err) => {
                 if (err) throw err;
-                // end the response
+                
             });
             res.send("A new note has been created");
         });
@@ -50,13 +50,6 @@ module.exports = function (app) {
             if (err) throw err;
             const update = data.filter(note => note.id !== req.params.id);
             console.log(update);
-            // fs.writeFile(`./db/db.json`, JSON.stringify(update, null, 1), (err) => {
-            //     if (err) throw err;
-            //     console.log("write end");
-            //     res.send("Deleted record with ID "+ req.params.id);
-            //     console.log("Deleted record with ID "+ req.params.id)
-            // });   
-
         });
         
     });
