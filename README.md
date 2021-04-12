@@ -31,7 +31,7 @@ LOCAL:
 To run the application on your local host, open the terminal and run 'node server.js', then navigate to localhost:8081 in your web browser to access the application:
 
 LIVE:
-Navigate to (Heroku URL) to try this app live
+Navigate to (https://gentle-reef-68539.herokuapp.com/) to try this app live
 
 ## License
   
