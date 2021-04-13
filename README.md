@@ -49,4 +49,4 @@ Contributors are welcome. This is open source software. Consider the people who 
 Questions??, contact the author:  
 
 GitHub [@lpaschka](https://github.com/lpaschka37)  
-Email [lpaschka37@gmail.com](mailto:kylekleven8@gmail.com)
+Email [lpaschka37@gmail.com](mailto:lpaschka37@gmail.com)
